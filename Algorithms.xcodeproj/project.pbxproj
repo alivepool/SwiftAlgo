@@ -12,6 +12,8 @@
 		62CE5CF11EE5021900354BAC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62CE5CEF1EE5021900354BAC /* Main.storyboard */; };
 		62CE5CF31EE5021900354BAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62CE5CF21EE5021900354BAC /* Assets.xcassets */; };
 		62CE5CF61EE5021900354BAC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62CE5CF41EE5021900354BAC /* LaunchScreen.storyboard */; };
+		62CE5CFE1EE504A300354BAC /* AlgoList.json in Resources */ = {isa = PBXBuildFile; fileRef = 62CE5CFD1EE504A300354BAC /* AlgoList.json */; };
+		62D997F61EEA48AF00EBFA58 /* AlgorithmFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62D997F51EEA48AF00EBFA58 /* AlgorithmFactory.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		62CE5CF21EE5021900354BAC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		62CE5CF51EE5021900354BAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		62CE5CF71EE5021900354BAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		62CE5CFD1EE504A300354BAC /* AlgoList.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = AlgoList.json; sourceTree = "<group>"; };
+		62D997F51EEA48AF00EBFA58 /* AlgorithmFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlgorithmFactory.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,9 +60,11 @@
 			children = (
 				62CE5CEB1EE5021900354BAC /* AppDelegate.swift */,
 				62CE5CED1EE5021900354BAC /* ViewController.swift */,
+				62D997F51EEA48AF00EBFA58 /* AlgorithmFactory.swift */,
 				62CE5CEF1EE5021900354BAC /* Main.storyboard */,
 				62CE5CF21EE5021900354BAC /* Assets.xcassets */,
 				62CE5CF41EE5021900354BAC /* LaunchScreen.storyboard */,
+				62CE5CFD1EE504A300354BAC /* AlgoList.json */,
 				62CE5CF71EE5021900354BAC /* Info.plist */,
 			);
 			path = Algorithms;
@@ -124,6 +130,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				62CE5CFE1EE504A300354BAC /* AlgoList.json in Resources */,
 				62CE5CF61EE5021900354BAC /* LaunchScreen.storyboard in Resources */,
 				62CE5CF31EE5021900354BAC /* Assets.xcassets in Resources */,
 				62CE5CF11EE5021900354BAC /* Main.storyboard in Resources */,
@@ -137,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				62D997F61EEA48AF00EBFA58 /* AlgorithmFactory.swift in Sources */,
 				62CE5CEE1EE5021900354BAC /* ViewController.swift in Sources */,
 				62CE5CEC1EE5021900354BAC /* AppDelegate.swift in Sources */,
 			);
@@ -304,6 +312,7 @@
 				62CE5CFC1EE5021900354BAC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
